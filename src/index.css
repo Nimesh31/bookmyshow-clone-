@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev {
+    left: 3% !important; /*this 3% is margin from left*/
+    z-index: 1;
+}
+
+.slick-next {
+    right: 3% !important; /*this 3% is margin from right*/
+    z-index: 1;
+}
